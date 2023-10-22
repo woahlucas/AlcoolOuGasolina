@@ -9,8 +9,8 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="300dp"
-        android:layout_height="550dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_marginStart="3dp"
         android:layout_marginEnd="3dp"
         android:background="@drawable/rounded_layout"
@@ -24,24 +24,12 @@
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="78dp"
+            android:layout_marginTop="20dp"
             android:layout_gravity="center_horizontal"
             android:contentDescription="@string/ilustracao_descricao"
-            android:paddingVertical="10dp"
             android:textAlignment="center"
             app:srcCompat="@mipmap/ic_launcher_foreground" />
-
-        <TextView
-            android:id="@+id/titulo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="10dp"
-            android:text="@string/gasolina_ou_lcool"
-            android:textAlignment="center"
-            android:textColor="?android:textColorPrimary"
-            android:textSize="25sp"
-            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/edGasolina"
@@ -75,6 +63,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginVertical="20dp"
+            android:ems="10"
             android:backgroundTint="#CB584C"
             android:text="@string/calcular" />
 

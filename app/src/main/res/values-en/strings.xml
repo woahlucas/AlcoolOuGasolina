@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Which fuel?</string>
+    <string name="ilustracao_descricao">a gas pump illustrating the app</string>
+    <string name="gasolina_ou_lcool">Gasoline or Alcohol?</string>
+    <string name="preco_gasolina">Gasoline price</string>
+    <string name="alcool">Alcohol</string>
+    <string name="_75">75%</string>
+    <string name="calcular">Calculate</string>
+</resources>
