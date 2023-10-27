@@ -9,8 +9,10 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="300dp"
-        android:layout_height="550dp"
+        android:layout_width="wrap_content"
+        android:minWidth="300dp"
+        android:layout_height="wrap_content"
+        android:minHeight="550dp"
         android:layout_marginStart="3dp"
         android:layout_marginEnd="3dp"
         android:background="@drawable/rounded_layout"
@@ -47,6 +49,8 @@
             android:id="@+id/edGasolina"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:minHeight="50dp"
+            android:textSize="20sp"
             android:layout_marginHorizontal="30dp"
             android:ems="10"
             android:hint="Preço da gasolina"
@@ -56,6 +60,8 @@
             android:id="@+id/edAlcool"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:minHeight="50dp"
+            android:textSize="20sp"
             android:layout_marginHorizontal="30dp"
             android:ems="10"
             android:hint="Álcool"
@@ -65,6 +71,8 @@
             android:id="@+id/swPercentual"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:minHeight="50dp"
+            android:textSize="20sp"
             android:layout_gravity="right"
             android:layout_marginHorizontal="30dp"
             android:text="75%" />
@@ -73,9 +81,11 @@
             android:id="@+id/btCalcular"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:minHeight="50dp"
+            android:textSize="20sp"
             android:layout_gravity="center_horizontal"
             android:layout_marginVertical="20dp"
-            android:backgroundTint="#CB584C"
+            android:backgroundTint="#10151A"
             android:text="Calcular" />
 
         <TextView
